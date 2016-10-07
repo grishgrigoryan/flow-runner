@@ -1,0 +1,13 @@
+{
+  "name" : "FP flow runner",
+  "version" : "0.1",
+  "description" : "FP flow runner",
+  "permissions": [ "tabs", "http://*/*", "https://*/*" ],
+  "icons": { "16": "fp-runner.png", "48": "fp-runner.png", "128": "fp-runner.png" },
+  "browser_action": {
+      "default_icon": "fp-runner.png",
+      "default_title": "FP flow runner",
+      "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}

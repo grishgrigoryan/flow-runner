@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+  <head>
+    <title>FP flow runner</title>
+    <style>
+      body {
+        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+        font-size: 100%;
+      }
+      #content{
+        width:150px;
+      }
+      #test_data{
+        margin-bottom:10px;
+      }
+      #status {
+        white-space: pre;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        max-width: 400px;
+        margin-bottom:15px;
+      }
+    </style>
+  </head>
+  <body>
+      <div id="content">
+            <div id="status">FP Flow runner</div>
+             <select id='test_data' >
+
+                <option value="june_boyles">
+                        June Boyles
+                </option>
+                <option value="tony_morales">
+                        Tony Morales
+                </option>
+            </select>
+            <select id='last_step' name='last_step'>
+          
+            </select>
+            <button id="run">Run</button>
+      </div>
+        <script src="popup.js"></script>
+  </body>
+</html>
